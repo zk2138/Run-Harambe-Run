@@ -1,0 +1,4 @@
+pepe 10000
+mica 10000
+jonas 4
+pipi 9
