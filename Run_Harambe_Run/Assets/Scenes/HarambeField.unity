@@ -1062,7 +1062,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 203}
-  - component: {fileID: 464}
   - component: {fileID: 466}
   - component: {fileID: 427}
   - component: {fileID: 478}
@@ -3725,7 +3724,7 @@ Transform:
   m_GameObject: {fileID: 103}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 11.6}
-  m_LocalScale: {x: 6, y: 1, z: 5}
+  m_LocalScale: {x: 50, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -7995,18 +7994,6 @@ Behaviour:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 99}
   m_Enabled: 1
---- !u!135 &464
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 67}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.28
-  m_Center: {x: 0, y: 1.03, z: 0.58}
 --- !u!137 &465
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -8113,12 +8100,12 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 0
-  m_Radius: 0.1
+  m_Radius: 0.8
   m_SlopeLimit: 45
   m_StepOffset: 0
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.89, z: 0.85}
 --- !u!157 &467
 LightmapSettings:
   m_ObjectHideFlags: 0

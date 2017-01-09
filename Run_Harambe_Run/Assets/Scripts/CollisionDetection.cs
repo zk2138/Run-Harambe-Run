@@ -20,8 +20,6 @@ public class CollisionDetection : MonoBehaviour
         }
         else if (gameObject.tag == "Bonus1")
         {
-            AudioSource audio = gameObject.AddComponent<AudioSource>();
-            audio.PlayOneShot((AudioClip)Resources.Load("/Sounds/bonus"));
             Destroy(this.gameObject);
             Score.score += 10;
         }

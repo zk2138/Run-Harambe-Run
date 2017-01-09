@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenuStart.unity
   - enabled: 1
-    path: Assets/Scenes/Highscores.unity
+    path: Assets/Scenes/HowToPlay.unity
   - enabled: 1
     path: Assets/Scenes/HarambeField.unity
   - enabled: 1

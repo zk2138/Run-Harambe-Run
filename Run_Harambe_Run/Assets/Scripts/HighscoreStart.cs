@@ -55,4 +55,9 @@ public class HighscoreStart : MonoBehaviour {
     {
         Application.Quit();
     }
+
+    public void instructionScene()
+    {
+        SceneManager.LoadScene("HowToPlay");
+    }
 }
